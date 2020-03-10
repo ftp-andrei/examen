@@ -7,7 +7,10 @@
  */
 public interface doc
 {
-   
+   /**
+    * @param X es el numero de fila y FILE es la ruta del fichero
+    * @return Devuelve el contenido de la fila x del fichero de texto con ruta absoluta file. 
+    */
    // Devuelve el contenido de la fila x del fichero de texto con ruta absoluta file.
    public abstract String obtenerLinea(int x, String file);
    

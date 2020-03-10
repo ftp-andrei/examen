@@ -13,6 +13,11 @@ public interface doc
     */
    // Devuelve el contenido de la fila x del fichero de texto con ruta absoluta file.
    public abstract String obtenerLinea(int x, String file);
-   
+   /**
+    * @param Damos una direccion
+    * @precondicion Que sea una direccion verdadera, sin valores negativos
+    * @return Devuelve la posicion geografica (altitud-latitud)
+    */
+   public abstract int posicionGeografica(String calle);
    
 }
